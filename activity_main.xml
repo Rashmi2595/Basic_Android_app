@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:paddingStart="@dimen/activity_left_margin"
+    android:paddingBottom="@dimen/activity_bottom_margin"
+    android:paddingTop="@dimen/activity_top_margin"
+    android:paddingEnd="@dimen/activity_right_margin"
+    android:orientation="vertical"
+
+    tools:context="com.example.nirma.myfirstapp.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_the_world_of_android"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"/>
+    <Button
+    android:id="@+id/pushItButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/pushit_button"/>
+
+    <Button
+        android:id="@+id/newPushButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newpushbutton"/>
+    <Button
+        android:id="@+id/third_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button 3"/>
+
+
+
+
+</LinearLayout>
