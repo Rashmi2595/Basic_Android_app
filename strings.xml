@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="welcome_to_the_world_of_android"> Welcome to the world of android.</string>
+    <string name="pushit_button">PushIt</string>
+    <string name="newbutton">NewPushButton</string>
+    <string name="newpushbutton">NewPushButton</string>
+</resources>
